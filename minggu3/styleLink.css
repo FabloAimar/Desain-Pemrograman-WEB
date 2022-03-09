@@ -1,0 +1,9 @@
+.link {
+    font-size: 20pt;
+}
+.línk:hover {
+    color: red;
+}
+.link:link {
+    color: blue;
+}
