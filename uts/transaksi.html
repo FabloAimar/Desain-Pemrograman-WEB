@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transaksi</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="transaksi.css">
+    </head>
+    <body>
+        
+        <header>
+            <div class="nama">
+                <h1>KOPI MALANG</h1>
+            </div>
+            <div class="container">
+            <ul>
+                <li><a href="uts.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="transaksi.html">TRANSAKSI</a></li>
+                <li><a href="foto.html">UP-FOTO</a></li>
+            </ul>
+            </div>
+        </header>
+
+        <h1 class="hitung">Hitung Transaksi</h1>
+
+        <form class="form" action="transaksi.php" method="post">
+            <label class="awal" >Nama </label>
+            <input class="akhir" type="text" name="nama" placeholder="Nama"><br><br>
+
+            <label class="awal">Status Pembeli </label>
+            <select class="akhir" name="status">
+                <option value="Member">Member</option>
+                <option value="Non-member">Non-Member</option>
+            </select><br><br>
+
+            <label class="awal">Menu </label>
+            <select class="akhir" name="menu">
+                <option value="paket1">Paket 1</option>
+                <option value="paket2">Paket 2</option>
+                <option value="paket3">Paket 3</option>
+            </select><br><br>
+
+            <label class="awal">Jumlah </label>
+            <input class="akhir" type="number" name="jumlah" placeholder="Jumlah"><br><br><br>
+
+            <input type="submit" name="hitung" value="Hitung">
+
+        </form>
+        <footer>
+            <div class="container">
+                <small>Coppyright &copy; 2022 . Fablo Aimar. All Right Reserved.</small>
+            </div>
+        </footer>
+    </body>
+</html>

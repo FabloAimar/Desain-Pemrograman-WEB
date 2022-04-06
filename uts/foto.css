@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+.header{
+    overflow: hidden;
+    border : 1px solid white;
+    background-color: WHITE;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+header h1 {
+    float: left;
+    padding: 15px 0;
+    color: #FF8B21;
+}
+header ul {
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color: #FF8B21;
+}
+.active {
+    background-color: #FF8B21;
+    color: aliceblue;
+}
+.nama{
+    float: left;
+    margin: 0 15px;
+}
+h1{
+    font-family: 'poppins', sans-serif;
+}
+.menu{
+    float: right;
+}
+ul{
+    margin:0; 
+    padding:0; 
+    list-style: none;
+}
+li{
+    float: left;
+}
+a{
+    padding:40px 15px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.tambah{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
+.awal{
+    float: left;
+    width: 100%;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Secular One', sans-serif;
+
+}
+.akhir{
+    margin-top: 10px;
+}
+footer {
+    padding: 30px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+section h3 {
+    text-align: center;
+    padding:20px 0;
+    color: #FF8B21;
+    margin-bottom: 20px;
+}
+.about p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about img {
+    align-content: center;
+}
+.service {
+    background-color: #f9f9f9;
+}
+.box {
+    color: #666;
+    text-align: center;
+}
